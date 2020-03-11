@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Exercise_palindrome:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Exercise_palindrome_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Exercise_palindrome/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Exercise_palindrome" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
