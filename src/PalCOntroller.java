@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 
+import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 import javax.enterprise.context.SessionScoped;
 import java.io.Serializable;
@@ -13,7 +14,7 @@ import java.io.Serializable;
  * @author Admin
  */
 @Named(value = "palCOntroller")
-@SessionScoped
+@RequestScoped
 public class PalCOntroller implements Serializable {
 
     private String palin;
